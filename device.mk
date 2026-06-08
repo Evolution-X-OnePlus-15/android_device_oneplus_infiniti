@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2772
 TARGET_SCREEN_WIDTH := 1272
 
+# Camera: APS turbo soft/green/crash runtime fix (interposer loaded by libAlgoProcess via DT_NEEDED)
+PRODUCT_PACKAGES += \
+    libapsfixup
+
 # Enable dexpreopt
 WITH_DEXPREOPT := true
 WITH_DEXPREOPT_DEBUG_INFO := false
