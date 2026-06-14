@@ -22,6 +22,7 @@ namespace_imports = [
     'hardware/qcom-caf/sm8850',
     'vendor/oneplus/sm8850-common',
     'vendor/qcom/opensource/commonsys-intf/display',
+    'device/oneplus/infiniti',
 ]
 
 
@@ -103,7 +104,7 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libutils.so', 'libutils-stock.so')
         .replace_needed('libui.so', 'libui-stock.so'),
     'vendor/lib64/libui-stock.so': blob_fixup()
-        .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
+        .replace_needed('android.hardware.graphics.common-V6-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
