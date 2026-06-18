@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
     
-#SurfaceFlinger Refresh Rate
+# SurfaceFlinger Refresh Rate
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,165)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
