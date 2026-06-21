@@ -253,10 +253,10 @@
     </sdrHdrRatioMap>
   </highBrightnessMode>
   
-  <screenBrightnessRampFastDecrease>0.10</screenBrightnessRampFastDecrease>
-  <screenBrightnessRampFastIncrease>0.10</screenBrightnessRampFastIncrease>
-  <screenBrightnessRampSlowDecrease>0.10</screenBrightnessRampSlowDecrease>
-  <screenBrightnessRampSlowIncrease>0.10</screenBrightnessRampSlowIncrease>
+  <screenBrightnessRampFastDecrease>0.20</screenBrightnessRampFastDecrease>
+  <screenBrightnessRampFastIncrease>0.20</screenBrightnessRampFastIncrease>
+  <screenBrightnessRampSlowDecrease>0.20</screenBrightnessRampSlowDecrease>
+  <screenBrightnessRampSlowIncrease>0.20</screenBrightnessRampSlowIncrease>
   <screenBrightnessRampIncreaseMaxMillis>3000</screenBrightnessRampIncreaseMaxMillis>
   <screenBrightnessRampDecreaseMaxMillis>3000</screenBrightnessRampDecreaseMaxMillis>
 </displayConfiguration>
