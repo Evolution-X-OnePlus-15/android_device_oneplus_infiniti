@@ -77,10 +77,6 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-    
-# SurfaceFlinger Refresh Rate
-$(call soong_config_set,surfaceflinger,frame_rate_category_high,165)
-$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
 # Telephony
 PRODUCT_PACKAGES += \
