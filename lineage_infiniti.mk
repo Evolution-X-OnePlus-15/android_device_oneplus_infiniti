@@ -17,7 +17,7 @@ PRODUCT_NAME := lineage_infiniti
 PRODUCT_DEVICE := infiniti
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2745
+PRODUCT_MODEL := CPH2747
 
 EVO_BUILD_TYPE := Unofficial
 
@@ -27,9 +27,9 @@ TARGET_HAS_UDFPS := true
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1785498910198 release-keys" \
-    BuildFingerprint=OnePlus/CPH2745IN/OP611FL1:16/BP2A.250605.015/B.R4T3.50c6369-2bb93d1-2bb93d2:user/release-keys \
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1779937534743 release-keys" \
+    BuildFingerprint=OnePlus/CPH2747/OP611FL1:16/BP2A.250605.015/B.R4T3.202606012318:user/release-keys \
     DeviceName=OP611FL1 \
-    DeviceProduct=CPH2745 \
+    DeviceProduct=CPH2747 \
     SystemDevice=OP611FL1 \
-    SystemName=CPH2745  
+    SystemName=CPH2747
