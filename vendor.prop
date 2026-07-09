@@ -24,3 +24,7 @@ ro.product.marketname=OnePlus 15
 
 # USB
 vendor.usb.product_string=OnePlus 15
+
+# Camera
+ro.vendor.oplus.market.enname=OnePlus 15
+ro.vendor.oplus.market.name=OnePlus 15
