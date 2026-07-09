@@ -23,16 +23,16 @@ TARGET_SCREEN_WIDTH := 1272
 
 # OPlus Camera
   $(call inherit-product-if-exists, device/oneplus/infiniti-camera/opluscamera.mk)
+  
+# Device is 4K-pages (kernel CONFIG_ARM64_4K_PAGES=y); declare it so check_elf_file
+# does not require the 16K-readiness alignment that older 4K OEM camera JNI libs lack.
+PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 4096  
 
 # Enable dexpreopt
 WITH_DEXPREOPT := true
 WITH_DEXPREOPT_DEBUG_INFO := false
 DEX_PREOPT_DEFAULT := speed-profile
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
-# Device is 4K-pages (kernel CONFIG_ARM64_4K_PAGES=y); declare it so check_elf_file
-# does not require the 16K-readiness alignment that older 4K OEM camera JNI libs lack.
-PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 4096
 
 # Display
 PRODUCT_COPY_FILES += \
