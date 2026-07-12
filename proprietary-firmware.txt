@@ -1,8 +1,8 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 15 (CPH2745_16.0.8.300(EX01)).
+## are from OnePlus 15 (CPH2747_16.0.8.300(EX01)).
 
 # Exception:
-# abl.img: from OnePlus 15 (CPH2745_16.0.5.703(EX01)). (VULNERABLE to efisp)
+# abl.img: from OnePlus 15 (CPH2747_16.0.5.703(EX01)). (VULNERABLE to efisp)
 
 abl.img;AB|a3d836c00e874688f47699c6b6f13e4331da6753
 aop.img;AB|a5260bda1cb825a95afcfd063bc039c5cc0ba707
