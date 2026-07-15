@@ -30,7 +30,7 @@ shrm.img;AB|14a45a941a19be55a62d07b99e120e7fc24631dc
 soccp.img;AB|c67c0fe3b3f5d6a361d63363a385c790e6a2b332
 soccp_dcd.img;AB|fd04e489a636e1839d7619985b3efd050aace0f2
 soccp_debug.img;AB|472900ddd15483c0fee10af765defdcb590d5a36
-splash.img;AB|5470d68b9325c3ff5594f0ca0d0147414d521cd4
+splash.img;AB|b358d9a8eb7a22f8c017b1d8b85a0c2db0efeb2c
 spuservice.img;AB|f7e7676e8582b3ff249f594ab6e78b1a2dbdaf74
 tme_config.img;AB|1bd28f983f9cdbd5a6c31f7b237c2e57c514c259
 tme_fw.img;AB|ea5b012ee7e70f10854213c94bb4c6def348b659
