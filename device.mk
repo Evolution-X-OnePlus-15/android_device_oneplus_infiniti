@@ -26,6 +26,8 @@ TARGET_SCREEN_WIDTH := 1272
 PRODUCT_MAX_PAGE_SIZE_SUPPORTED := 4096
 
 # Display
+$(call soong_config_set,surfaceflinger,arr_use_oplus_ltpo_rates,true)
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946850534658451.xml \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946916234099603.xml \
