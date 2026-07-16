@@ -19,6 +19,21 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=0
 ro.surface_flinger.set_touch_timer_ms=200
 
+# LMKD Properties
+ro.lmk.enable_userspace_lmk=true
+ro.lmk.kill_heaviest_task_dup=true
+ro.lmk.enable_preferred_apps=true
+ro.lmk.kill_timeout_ms_dup=100
+ro.lmk.thrashing_threshold=30
+ro.lmk.thrashing_decay=5
+ro.lmk.nstrat_low_swap=10
+ro.lmk.nstrat_psi_partial_ms=70
+ro.lmk.nstrat_psi_complete_ms=150
+ro.lmk.psi_scrit_complete_stall_ms=400
+ro.lmk.nstrat_wmark_boost_factor=1
+ro.lmk.cache_percent=10
+ro.lmk.nandswap_version=2
+
 # Device name
 ro.product.marketname=OnePlus 15
 
