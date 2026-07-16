@@ -1,46 +1,46 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 15 (CPH2747_16.0.8.300(EX01)).
+## are from OnePlus 15 (CPH2747_16.0.9.400(EX01)).
 
 # Exception:
 # abl.img: from OnePlus 15 (CPH2747_16.0.5.703(EX01)). (VULNERABLE to efisp)
 
 abl.img;AB|a3d836c00e874688f47699c6b6f13e4331da6753
-aop.img;AB|a5260bda1cb825a95afcfd063bc039c5cc0ba707
-aop_config.img;AB|754397defe2e12b156fc3aca7f5bac51e10f3c09
-bluetooth.img;AB|a40be6dba6d27defb5b4fc560fb417736f022a60
-cpucp.img;AB|fa86f0bd0f879020fd83c56f144cc588b789d7d4
-cpucp_dtb.img;AB|dcfe63cef51fb1a4373e65628e6b9fdfea52d2bd
-devcfg.img;AB|eadbb28f09cfa3afa5c83e332f5200726fc0bbd6
+aop.img;AB|dbbe053315fd634f461e4563a9c113f9c9181823
+aop_config.img;AB|bc6aa187398f6777ed29ab937512e5a90db28047
+bluetooth.img;AB|f2786dc6ec15e98c104b4566e52956f0a6709c40
+cpucp.img;AB|f631d07b782269ab19d60a753d5c70f30542b7b4
+cpucp_dtb.img;AB|5bcbd92535ae0627feb3e38cded740279da7f468
+devcfg.img;AB|411d3b342d044d57f77b96dafa73966f8587128a
 dsp.img;AB|9f9a3d91049911aee6029a961ea1762c7bd1e3d3
-engineering_cdt.img;AB|803965c32cdec8b243859367c5127bd2389c9e30
-featenabler.img;AB|3b85a0a5ca50dda1461f1bf33f4c151297a2e11a
-hyp.img;AB|e198fcec9dd7b30fd5b0e8a485231038853e3953
-hyp_ac_config.img;AB|0fb043419bb72b68c301a37cb5370a68db14a69d
-imagefv.img;AB|659f42f95e5727bc194eb3fdf6dc93bf151f6a84
-keymaster.img;AB|e41e6578ebba1a4a9edd9e752946f74cabc7b72f
-modem.img;AB|42f4bf81f65c8ec314e2cc33c5d78ffd0c534083
-multiimgoem.img;AB|4407e64d872e05c8a430e62983151847f41f3840
+engineering_cdt.img;AB|57367e51743484175c1fc9d1a6d4cfd929d11332
+featenabler.img;AB|8650a573f66b82e80642e117571b89a98a5e27bc
+hyp.img;AB|c9f7e8f01a066bb43712d44d31590d987d2dfdc5
+hyp_ac_config.img;AB|1454aa73bb2bf7008e789ae05e472761caa15948
+imagefv.img;AB|0c9fcc4d9e9d316947ec52d8eccca8c4cb03b422
+keymaster.img;AB|dcbe22654afda71e6ea6dcbc0dd7304c33be6103
+modem.img;AB|3839ff60e07f0657f5cb418d246da762990e21a8
+multiimgoem.img;AB|fceba4b6acc80cd9f310d9a3f4e0d21b764d7d97
 multiimgqti.img;AB|aeb9019cff9016e8b1b4216643b44e94615e59cc
 oplus_sec.img;AB|6865ad1ded4d3cec82c234bc3ad3d006ada761b9
-pdp.img;AB|1d87c6ab3c8ab13ea517554752b9f104f3ecd7ed
-pdp_cdb.img;AB|2359784ab4b5063fd6c5a3b0a9c7bff95092705b
-qupfw.img;AB|15f643567551dc8e1f5b11cc4825b112c2b3a757
-secretkeeper.img;AB|e14f95c126071262352856eee083cfc40f9def82
-shrm.img;AB|14a45a941a19be55a62d07b99e120e7fc24631dc
-soccp.img;AB|c67c0fe3b3f5d6a361d63363a385c790e6a2b332
-soccp_dcd.img;AB|fd04e489a636e1839d7619985b3efd050aace0f2
-soccp_debug.img;AB|472900ddd15483c0fee10af765defdcb590d5a36
+pdp.img;AB|813d51f7bb882da91d23e836831ad3cd24a35884
+pdp_cdb.img;AB|62824707b838c792bc2fbdcd0cadfe7ec3504f74
+qupfw.img;AB|70175c66ba6b4e1c9c16834081275b6c2f491f31
+secretkeeper.img;AB|5ecde43608d9c4860f96dbf7cad296d381e98679
+shrm.img;AB|8ba031c266b411e2dc6ab272fb3ab779829cd3a5
+soccp.img;AB|d8d90763441b807c4af020fcb12a8c587be4828f
+soccp_dcd.img;AB|32ae39416b63991ba41f4bd08eb42fbab6fd5599
+soccp_debug.img;AB|7130fb1fe240f3b07640e307085a0b8059dff9ad
 splash.img;AB|b358d9a8eb7a22f8c017b1d8b85a0c2db0efeb2c
 spuservice.img;AB|f7e7676e8582b3ff249f594ab6e78b1a2dbdaf74
-tme_config.img;AB|1bd28f983f9cdbd5a6c31f7b237c2e57c514c259
-tme_fw.img;AB|ea5b012ee7e70f10854213c94bb4c6def348b659
+tme_config.img;AB|4c4797bd9b6705abbc2c1dd3998852231ea16241
+tme_fw.img;AB|2307f80b17113ef45e71f9f15dbf01c3ec225032
 tme_seq_patch.img;AB|cf1e640e4f572a0331f8c8f63fd97bd3f76b7b98
-tz.img;AB|c006ec6f8e1f7356d7ea55ab0cba3f58f9814e19
-tz_ac_config.img;AB|71f875cca326fde65434a516297586ee0f736c6c
-tz_qti_config.img;AB|46f930c78e2c1c33f384e9f83044feb82a1c5f21
-uefi.img;AB|b774079ed81d83eb717fab26247143614454994f
-uefisecapp.img;AB|3f27942d747c2b1b570d908b23f85cd08a1f2926
-xbl.img;AB|72ae957bbac48553d24c36b3ef593c57f069e107
-xbl_ac_config.img;AB|0a3e1f2069609809677e310b377b638e544bdee2
-xbl_config.img;AB|0e6c6f85356418ac45d53ccf61d61d0676298a0b
-xbl_ramdump.img;AB|8613d345e98d1aadd0ce9f76582f04d72a134015
+tz.img;AB|bd405f1cb82aecdd5ced85fe049ee93c8fc71808
+tz_ac_config.img;AB|74cc7decf02888077a087cf82177005ca4735244
+tz_qti_config.img;AB|49e15e7b8caa47abea346b27a96e03582109ec91
+uefi.img;AB|6dbb8d65b9d224b3c8cb1382712c81ab93bb921a
+uefisecapp.img;AB|d9bb5568d79d3e4822e1ce214e32aafba2a68c24
+xbl.img;AB|c66a99e017fc871e627015d06c17c885a18beae2
+xbl_ac_config.img;AB|1b9c85a33073657d8f9e33ce4997fa09678f0408
+xbl_config.img;AB|7f29ac9ab170cf40cd889b2e2d5e75612c79b131
+xbl_ramdump.img;AB|839f1a5110aa19df2b7060c13ef4cf7f9037dc1a

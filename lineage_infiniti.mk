@@ -28,9 +28,12 @@ TARGET_HAS_UDFPS := true
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1779937534743 release-keys" \
-    BuildFingerprint=OnePlus/CPH2747/OP611FL1:16/BP2A.250605.015/B.R4T3.202606012318:user/release-keys \
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1782911146828 release-keys" \
+    BuildFingerprint=OnePlus/CPH2747/OP611FL1:16/BP2A.250605.015/B.R4T3.16cae21_dc209e_dc22f5:user/release-keys \
     DeviceName=OP611FL1 \
     DeviceProduct=CPH2747 \
     SystemDevice=OP611FL1 \
     SystemName=CPH2747
+    
+
+PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
