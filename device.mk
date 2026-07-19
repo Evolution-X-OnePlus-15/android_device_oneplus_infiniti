@@ -40,7 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_disp/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml
 
 PRODUCT_PACKAGES += \
-    oplus_adfr_init
+    oplus_adfr_init \
+    OplusLtpo
 
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.oplus.display.minifps.normalize=true \
