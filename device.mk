@@ -82,6 +82,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.oplus.product.series=flagship_series \
     ro.product.supported_versions=24863
 
+# VINTF
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/oneplus/infiniti/vintf/device_framework_matrix.xml
+
 # Recovery
 $(call soong_config_set_bool,recovery,target_recovery_uses_qti_drm,true)
 
